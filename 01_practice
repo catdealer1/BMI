@@ -1,0 +1,11 @@
+my_weight = float(input("How much do you weight in kilos?"))
+my_height = float(input("How mucho do you height in centimeters?"))
+print("your weight is", my_weight, "kilos", "your height is", my_height, "centimeters")
+
+#BMI 
+my_BMI = float(my_weight / (my_height/100)**2)
+ask01 = input("Do you want to know your BMI?")
+if ask01 == "Yes" or "yes":
+  print("Great, your BMI is:", my_BMI)
+else:
+  print ("Sorry for asking")
